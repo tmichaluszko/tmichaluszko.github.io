@@ -1,3 +1,9 @@
+html {
+    height : 100%;
+    
+    
+}
+
 body {
     font-family: 'Barlow Semi Condensed', 'Arial Narrow', Arial, sans-serif;
     background:url("../img/backfallout.jpg") #145e8f no-repeat; 
@@ -20,6 +26,7 @@ body {
 /* Image */
 .hero-image {
     line-height: 0;
+    opacity: 0.8;
 }
 .hero-image img {
     max-width: 100%;
@@ -32,4 +39,24 @@ body {
     color: darkslategrey;
     max-width: 50%;
     box-sizing: border-box
+    
+}
+
+h1 {
+    margin-top:0;
+    font-size: 48px;
+    color: orangered
+}
+
+h2 {
+    margin-top:0;
+    font-size: 25px;
+    color: orangered;
+
+}
+
+p {
+    color:orangered;
+    font-size: 25px
+    
 }
