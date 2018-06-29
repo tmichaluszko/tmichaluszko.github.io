@@ -6,7 +6,8 @@ html {
 body {
     font-family: 'Barlow Semi Condensed', 'Arial Narrow', Arial, sans-serif;
     background:url("../img/backfallout.jpg") #585757 no-repeat; 
-    background-size: cover; 
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     padding: 36px;
 }
